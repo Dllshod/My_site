@@ -1,0 +1,35 @@
+*{
+
+}
+.body{
+    
+}
+
+h1{
+    color: rgb(255, 0, 0);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h2{
+    color: #00ff0d;
+    font-size: 60px;
+    font-weight: 100;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h3{
+    color: #2f00ff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}#image{
+    width: 300px;
+    height: 300px;
+    border-radius: 10%  ;
+    display: block;
+    margin: 200px auto;
+
+}
+.btn{
+    background-color: blue;
+    border: 2px solid blue;
+    color:aliceblue;   
+    border-radius: 10%  ;
+    cursor: pointer;
+}
