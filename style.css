@@ -1,35 +1,110 @@
 *{
-
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.body{
-    
+.bgimg {
+    background-image: url(./img\ bg.png);
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 131px;
 }
-
-h1{
-    color: rgb(255, 0, 0);
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+.formWrapper{
+    background-color: white;
+    width: 1076px;
+    margin: 0 auto;
+    padding: 24px 24px 72px ;
+    border-radius: 24px;
 }
-h2{
-    color: #00ff0d;
-    font-size: 60px;
-    font-weight: 100;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-h3{
-    color: #2f00ff;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}#image{
-    width: 300px;
-    height: 300px;
-    border-radius: 10%  ;
+.close{
     display: block;
-    margin: 200px auto;
-
+    width: 32px;
+    height: 32px;
+    font-size: 32px;
+    color: rgb(0, 0, 255) ;
+    margin-left: auto;
+    cursor: pointer;
+    margin-bottom: 16px;
+}
+.subtitle{
+    text-align: center;
+    font-size: 16px;
+    line-height: 37%;
+    margin-bottom: 12px;
+    color: #5A5B73;
+}
+.subtitle span{
+    color: #1500ff;
+}
+h1{
+    font-size: 44px;
+    text-align: center;
+    margin-bottom: 32px;
+    color: #336BF6;
+}
+form{
+    width: 358px;
+    margin: 0 auto;
+}
+label{
+    display: block;
+    font-size: 16px;
+    color:  #5A5B73;
+    margin-bottom: 16px;
+}
+input{
+    display: block;
+    width: 100%;
+    padding: 14px 12px;
+    margin-top: 8px;
+    background-color:rgb(226, 229, 229);
+    border: none;
+    border-radius: 8px;
+    outline: none;
 }
 .btn{
-    background-color: blue;
-    border: 2px solid blue;
-    color:aliceblue;   
-    border-radius: 10%  ;
+    width: 100%;
+    background-color: #336BF6;
+    color: #ffffff;
+    padding: 12px 0;
+    border: 2px solid #336BF6;
+    border-radius: 8px;
+    margin-top: 32px;
     cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
 }
+.footerText {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 358px;
+    margin: 0 auto 16px;
+    color: #5a5b73;
+  }
+  .line {
+    height: 1px;
+    width: 90px;
+    background-color: #5a5b73;
+  }
+  .footerLink {
+    width: 358px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .link{
+      width: 108px;
+      height: 46px;
+      border-radius: 8px;
+      border: 1px solid #5a5B73;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+
